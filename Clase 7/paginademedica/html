@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Medicina</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <!-- Encabezado principal de la página -->
+    <header>
+        <h1>La medicina: el arte más humano y la ciencia más artística</h1>
+    </header>
+
+    <!-- Sección de introducción -->
+    <section>
+        <h2>Importancia de la Medicina Actual</h2>
+        <p>
+            La medicina actual es de suma importancia, ya que combina conocimientos científicos y tecnologías avanzadas para prevenir, diagnosticar y tratar enfermedades. Además, la medicina moderna ha permitido el aumento en la esperanza de vida y la mejora en la calidad de vida de millones de personas alrededor del mundo. El enfoque humano y ético en el tratamiento y la relación médico-paciente son esenciales para el éxito en la práctica médica.
+        </p>
+        <!-- Imagen representativa de la medicina -->
+        <figure>
+            <img src="https://conceptodefinicion.de/wp-content/uploads/2019/08/Medicina-.jpg" alt="Imagen de medicina" width="700" height="450">
+            <figcaption>Imagen representativa de la medicina moderna.</figcaption>
+        </figure>
+    </section>
+
+    <!-- Sección de especialidades médicas -->
+    <section>
+        <h2>Especialidades Médicas</h2>
+        <ul>
+            <li>Cardiología</li>
+            <li>Neurología</li>
+            <li>Oncología</li>
+            <li>Pediatría</li>
+            <li>Dermatología</li>
+            <li>Ginecología</li>
+            <li>Ortopedia</li>
+            <li>Medicina Interna</li>
+        </ul>
+    </section>
+
+    <!-- Sección de inscripción -->
+    <section>
+        <h2>Inscríbete Ahora</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="apellidos">Apellidos:</label><br>
+            <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+            <button type="submit">Inscríbete Ahora</button>
+        </form>
+    </section>
+
+    <!-- Enlace a otro recurso -->
+    <footer>
+        <p>Para más información sobre servicios médicos, visita <a href="https://unisa.cdmx.gob.mx/" target="_blank">UNISA CDMX</a>.</p>
+    </footer>
+</body>
+</html>
